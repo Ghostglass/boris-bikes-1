@@ -1,12 +1,14 @@
 #Boris Bikes
 
-## Outline
+[Outline](#Outline) | [The Task](#Task) | [User Story](#Story) | [DockingStation Rspec File](#D_Rspec) | [Bike Rspec File](#B_Rspec) | [DockingStation Ruby Code](#D_Code) | [Bike Ruby Code](#B_Code)
+
+## <a name="Outline">Outline</a>
 Let's go back several years, to the days when there were no Boris Bikes. Imagine that you're a junior developer (that was easy). Transport for London, the body responsible for delivery of a new bike system, come to you with a plan: a network of docking stations and bikes that anyone can use. They want you to build a program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on) required to make their dream a reality.
 
-## The Task
+## <a name="Task">The Task</a>
 Throughout the course of the project we we’re given several `User Stories` which are listed below. We started to determine which parts of the `User Story` are `Objects` and which are `Methods`. As in all TDD we created a test for a feature that we wanted to manipulate and then wrote the code to pass those tests.
 
-### User Story
+### <a name="Story">User Story</a>
 ```
 As a person,
 So that I can use a bike,
@@ -61,7 +63,7 @@ So that I can manage broken bikes and not disappoint users,
 I'd like docking stations to accept returning bikes (broken or not).
 ```
 
-### DockingStation Rspec file
+### <a name="D_Rspec">DockingStation Rspec File</a>
 ```ruby
 require "docking_station"
 
@@ -120,7 +122,7 @@ describe DockingStation do
 end
 ```
 
-### Bike Rspec file
+### <a name="B_Rspec">Bike Rspec File</a>
 ```ruby
 require 'bike'
 
@@ -130,7 +132,7 @@ describe Bike do
 end
 ```
 
-### DockingStation Ruby code
+### <a name="D_Code">DockingStation Ruby Code</a>
 ```ruby
 require_relative 'bike'
 
@@ -170,7 +172,7 @@ class DockingStation
 end
 ```
 
-### Bike Ruby code
+### <a name="B_Code">Bike Ruby Code</a>
 ```ruby
 class Bike
 
