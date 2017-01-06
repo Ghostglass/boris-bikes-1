@@ -33,5 +33,4 @@ class DockingStation
   def empty?
     docked.empty?
   end
-
 end
