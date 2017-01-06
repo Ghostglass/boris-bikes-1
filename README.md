@@ -27,3 +27,12 @@ describe DockingStation do
   it { is_expected.to respond_to :release_bike }
 end
 ```
+
+### Ruby code
+```ruby
+class DockingStation
+  def release_bike
+
+  end
+end
+```
