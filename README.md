@@ -130,7 +130,7 @@ describe Bike do
 end
 ```
 
-### Docking Station Ruby code
+### DockingStation Ruby code
 ```ruby
 require_relative 'bike'
 
@@ -170,7 +170,7 @@ class DockingStation
 end
 ```
 
-### Bike Station Ruby code
+### Bike Ruby code
 ```ruby
 class Bike
 
