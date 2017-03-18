@@ -1,6 +1,6 @@
 #Boris Bikes
 #### Technologies: Ruby, Rspec
-### [Makers Academy] (http://www.makersacademy.com) - Week 1 Pair Programming Project
+### [Makers Academy](http://www.makersacademy.com) - Week 1 Pair Programming Project
 
 [User Story](#Story) | [DockingStation Rspec File](#D_Rspec) | [Bike Rspec File](#B_Rspec) | [DockingStation Ruby Code](#D_Code) | [Bike Ruby Code](#B_Code)
 
